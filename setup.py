@@ -25,9 +25,9 @@ from setuptools.dist import Distribution
 
 __version__ = '0.0.1'
 REQUIRED_PACKAGES = [
-    'tensorflow >= 2.1.0',
+    'tensorflow == 2.7.0',
 ]
-project_name = 'tensorflow-custom-ops'
+project_name = 'pyronn-layers'
 
 
 from setuptools.command.install import install
