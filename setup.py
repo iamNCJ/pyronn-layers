@@ -25,7 +25,7 @@ from setuptools.dist import Distribution
 
 __version__ = '0.1.4.2'
 REQUIRED_PACKAGES = [
-    'tensorflow == 2.5.0',
+    'tensorflow == 2.9.3',
 ]
 project_name = 'pyronn-layers'
 
